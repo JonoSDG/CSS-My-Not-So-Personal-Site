@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  font-size: 16px;
+}
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 10rem;
+  color: #70050A;
+}
+h2,h3{
+  font-family: 'Oswald', sans-serif;
+}
+h2{
+  font-size: 4.5rem;
+  font-weight:bolder;
+  color: #70050A;
+}
+
+h3{
+  font-size: 3.5rem;
+  font-weight:bold;
+  color: #6E090E;
+}
+
+p{
+  font-family: 'PT Serif', serif;
+  font-size: 2rem;
+  color: #ECE9E6;
+}
+
+hr{
+  border-style: dashed none none none;
+  border-width: 20px;
+  width: 20%;
+  margin: 50px auto;
+  color: #463340;
+}
+
+a{
+  font-family: 'PT Serif', serif;
+}
+.top-container{
+  padding-top: 100px;
+  text-align: center;
+  background-color: #D2D8DE;
+}
+.Chain{
+  text-decoration:line-through;
+}
+.Saw{
+  text-decoration:underline;
+}
+.Rpochita{
+  position: absolute;
+  right: 5%;
+  width: 9%;
+  transform: rotate(20deg);
+}
+.Lpochita{
+  position: absolute;
+  left: 5%;
+  width: 9%;
+  transform: rotate(340deg);
+}
+.poster{
+  width: 100%;
+}
+
+/*middle section*/
+.mid-container{
+  text-align: center;
+  background-color: #696976;
+
+}
+.Denji {
+  border: 15px solid #555;
+  border-radius: 50%;
+  width: 55%;
+}
+
+.profile{
+  padding: 50px 0 0 0;
+  margin: auto;
+  width: 30%
+}
+.skill-row{
+  margin: auto;
+  padding: 50px 5% 7% 5%;
+  width: 80%;
+}
+.transform{
+  float: left;
+  width: 25%;
+  border: 10px solid #555;
+  border-radius: 15%;
+  margin-right: 3.12rem;
+}
+.h2h{
+  float: right;
+  width: 25%;
+  border: 10px solid #555;
+  border-radius: 15%;
+  margin-left: 3.12rem;
+}
+.watchme{
+  padding: 50px 50px 50px 50px;
+}
+.Crunchpunch{
+  width: 30%;
+  margin: auto;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 25px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 55px;
+   font-weight: 250;
+   padding: 40px;
+   background-color: #F47521;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px auto auto auto;
+   text-decoration: none;
+}
+
+.btn:hover {
+   background: #7E3200;
+   border: solid #50190B 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bot-container{
+  background-color: #4F4D5E;
+  text-align: center;
+  padding: 5px;
+}
+.footer-link{
+  margin: 0 30px;
+  color: #ECE9E6;
+  text-decoration: none;
+}
+.TM{
+  margin-top: 50px;
+  color: #ECE9E6;
+}
